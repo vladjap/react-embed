@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.booking-panel-wrap {
+  width: 30%;
+  padding: 1.5rem;
+  background-color: #0F213F;
+  display: flex;
+  position: relative;
+  min-width: 340px;
+}
+.booking-panel-wrap .autosuggestion-field-wrap {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  background-color: #3B486A;
+  font-size: 1.1rem;
+  width: calc(100% / 2 - 2px);
+  position: relative;
+  min-width: 170px;
+}
+.booking-panel-wrap .autosuggestion-field-wrap:hover {
+  cursor: pointer;
+}
+.booking-panel-wrap .autosuggestion-field-wrap .autosuggestion-field-active {
+  color: inherit;
+  font-weight: 600;
+}
+.booking-panel-wrap .autosuggestion-field-wrap .autosuggestion-field-active .autosuggestion-field-input {
+  width: 90%;
+  border: 0;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: inherit;
+  color: inherit;
+}
+.booking-panel-wrap .autosuggestion-field-wrap .suggestion-box {
+  position: absolute;
+  max-height: 150px;
+  width: calc(100% - 2px);
+  top: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #eceff1;
+}
+.booking-panel-wrap .autosuggestion-field-wrap .suggestion-box .item {
+  border-bottom: 1px solid #eceff1;
+  padding: 1rem 1rem 1rem 2.2rem;
+}
+.booking-panel-wrap .autosuggestion-field-wrap .suggestion-box .item .country-name-label {
+  color: #717171;
+  font-size: 0.9rem;
+}
+.booking-panel-wrap .second {
+  margin-left: -21px;
+}
+.booking-panel-wrap .button-icon {
+  padding: 1rem;
+  color: #b8cae3;
+  font-size: 1.3rem;
+}
+.booking-panel-wrap .button-icon .second {
+  margin-left: 18px;
+}
+.booking-panel-wrap .active {
+  background-color: #fff;
+  color: #000;
+}
+.booking-panel-wrap .selected {
+  background-color: #3B486A;
+  color: #FFF;
+}
+.booking-panel-wrap .field-background-extension {
+  background-color: #3B486A;
+  width: 1.4rem;
+  font-size: 1.1rem;
+  color: transparent;
+  margin-left: 0.3rem;
+}
+.booking-panel-wrap .origin-destination-switch {
+  background-color: #3B486A;
+  border: 4px solid #0F213F;
+  padding: 0.55rem;
+  margin-left: -22px;
+  z-index: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+i.icon-airplane-origin:before {
+  content: "";
+}
+
+i.icon-airplane-destination:before {
+  content: "";
+}
+
+/*# sourceMappingURL=widget.css.map */
